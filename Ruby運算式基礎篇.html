@@ -1,0 +1,309 @@
+<HTML>
+<HEAD>
+  <TITLE>Ruby運算式基礎篇.html</TITLE>
+  <meta NAME = "GENERATOR"          CONTENT = "IHMC CmapTools vr. 4.12 ">
+  <meta NAME = "KEYWORDS"           CONTENT = "陳咨諺, 概念图, cmap, CmapTools, IHMC, Ruby運算式基礎篇,  把資料當作是物件， 可以透過字串或數字呼叫方法。,  輸入：5 &#60 10 =&#62true 5 &#62 10 =&#62false 5 + 4 ==10=&#62false,  變數,  輸入：＃輸出Hello "Hello" =&#62 "Hello" "world" =&#62 "world" =begin 此段教學為字串舉例 =end,  輸出文字,  單元習題,  數學運算與比較,  輸入：print "Hello, Ruby" puts "Hello, Ruby" p "Hello, Ruby" puts會自動換行 puts "Jan","Feb","Mar" p "Hello, Ruby" puts"Welcome to 'RoR World'" print"what's your name" input = gets #會從你的輸入讀取你打的資料， 最後gets回傳輸入者的文字 puts = "Welcome, #{input}",  習題一、請寫出一個BMI轉換器 習題二、請寫出溫度轉換器(攝氏-&#62華氏),  物件導向,  輸入：4.4-2.2 =&#622.2 3*4 =&#6212 7/3.5 =&#622.0 2**3 =&#628,  可以使用&#62,&#60來做數值比較 或是＝＝來查看兩個數值是否相等,  在程式碼中，呼叫方法(print,puts,p) ，方便將文字顯示在輸出上。,  輸入："Hello".upcase =&#62HELLO "Hello".reverse =&#62 olleH 42.even? =&#62true -32.abs =&#6232,  輸入：small = 7 =&#627 medium = 13 =&#6213 small + medium =&#6220 pie = "圓周率" =&#62"圓周率" pie = 3.14 =&#623.14 number = 3 =&#623 number +=1 =&#624 number =&#624 str = "ab" =&#62"ab" str +="cd" =&#62"abcd" str =&#62"abcd" x=1 y=1 z=1 x,y,z = 1,2,3 x,y,z = [1,2,3] my_money_coin = 5 =&#62 5,  變數名稱必須以小寫字母為開頭， 字身可以包含字母、數字、和底線符號。 變數沒有資料型態的限制。 Ruby通常有變數命名慣例， 利用"蛇行命名法"，透過底線分個名稱中的單字。,  執行Ruby程式,  說明這段程式碼用途 ，將＃放置註解內容前，讓該行程式碼不執行。 或是將註解內容利用=begin及=end包住 ，讓該段程式碼不執行。,  Ruby 基礎運算與語法,  輸入："Hello" =&#62 "Hello" "world" =&#62 "world"">
+  <meta NAME = "DESCRIPTION"        CONTENT = "此概念图以 IHMC CmapTools 创建, 内含信息有关于: Ruby運算式基礎篇, 輸入："Hello" =&#62 "Hello" "world" =&#62 "world" 總結 單元習題, 註解 是 說明這段程式碼用途 ，將＃放置註解內容前，讓該行程式碼不執行。 或是將註解內容利用=begin及=end包住 ，讓該段程式碼不執行。, 數學運算與比較 包含 如同大多數其他語言所使用的數學運算符號。 說明：+代表加號 -代表減號 ＊代表乘法 /代表除法 ＊＊代表指數, 說明這段程式碼用途 ，將＃放置註解內容前，讓該行程式碼不執行。 或是將註解內容利用=begin及=end包住 ，讓該段程式碼不執行。 例如 輸入：＃輸出Hello "Hello" =&#62 "Hello" "world" =&#62 "world" =begin 此段教學為字串舉例 =end, 數學運算與比較 包含 可以使用&#62,&#60來做數值比較 或是＝＝來查看兩個數值是否相等, 在程式碼中，呼叫方法(print,puts,p) ，方便將文字顯示在輸出上。 例如 輸入：print "Hello, Ruby" puts "Hello, Ruby" p "Hello, Ruby" puts會自動換行 puts "Jan","Feb","Mar" p "Hello, Ruby" puts"Welcome to 'RoR World'" print"what's your name" input = gets #會從你的輸入讀取你打的資料， 最後gets回傳輸入者的文字 puts = "Welcome, #{input}", 輸入：small = 7 =&#627 medium = 13 =&#6213 small + medium =&#6220 pie = "圓周率" =&#62"圓周率" pie = 3.14 =&#623.14 number = 3 =&#623 number +=1 =&#624 number =&#624 str = "ab" =&#62"ab" str +="cd" =&#62"abcd" str =&#62"abcd" x=1 y=1 z=1 x,y,z = 1,2,3 x,y,z = [1,2,3] my_money_coin = 5 =&#62 5 總結 單元習題, 輸入：4.4-2.2 =&#622.2 3*4 =&#6212 7/3.5 =&#622.0 2**3 =&#628 總結 單元習題, Ruby 基礎運算與語法 包括 物件導向, 輸入：5 &#60 10 =&#62true 5 &#62 10 =&#62false 5 + 4 ==10=&#62false 總結 單元習題, Ruby 基礎運算與語法 包括 數學運算與比較, Ruby 基礎運算與語法 包括 輸出文字, 輸入：＃輸出Hello "Hello" =&#62 "Hello" "world" =&#62 "world" =begin 此段教學為字串舉例 =end 總結 單元習題, 字串 是 一系列的文字符號。要指定字串的方式是使用 一對雙引號(”)或單引號(')來括弧住。, 單元習題 是 習題一、請寫出一個BMI轉換器 習題二、請寫出溫度轉換器(攝氏-&#62華氏), 輸出文字 是 在程式碼中，呼叫方法(print,puts,p) ，方便將文字顯示在輸出上。, 把資料當作是物件， 可以透過字串或數字呼叫方法。 例如 輸入："Hello".upcase =&#62HELLO "Hello".reverse =&#62 olleH 42.even? =&#62true -32.abs =&#6232, Ruby 基礎運算與語法 透過 執行Ruby程式, 如同大多數其他語言所使用的數學運算符號。 說明：+代表加號 -代表減號 ＊代表乘法 /代表除法 ＊＊代表指數 例如 輸入：4.4-2.2 =&#622.2 3*4 =&#6212 7/3.5 =&#622.0 2**3 =&#628, 輸入："Hello".upcase =&#62HELLO "Hello".reverse =&#62 olleH 42.even? =&#62true -32.abs =&#6232 總結 單元習題">
+  <meta NAME = "AUTHOR"             CONTENT = "IHMC CmapTools">
+  <meta HTTP-EQUIV = "Content-Type" CONTENT = "text/html; charset = UTF-8">
+  <script LANGUAGE="JavaScript1.2">
+  <!--
+    //  PopUp --
+    //  Institute for Human and Machine Cognition, http://www.ihmc.us/
+    //  CmapTools, Version 4.11, http://cmap.ihmc.us/
+    //  Modify by: CmapTools Developers, cmapsupport@ihmc.us
+    //  Date: 12/14/2006
+
+    var IE = 0;
+    var IE4PC = 0;
+    var NS = 0;
+    var GECKO = 0;
+
+    var openpopups = new Array();
+
+    if (document.all) {                 // Internet Explorer Detected
+	   IE = true;	
+    }
+    else if (document.layers) {         // Netscape Navigator Detected
+	   NS = true;	
+    }
+    else if (document.getElementById) { // Netscape 6 Detected
+       GECKO = true;
+    }
+    else {
+	   alert("Unrecognized Browser Detected::\nSorry, your browser is not compatible.");
+    }
+
+    if (IE)
+    {
+	   OS = navigator.platform;
+	   VER = new String(navigator.appVersion);
+	   VER = VER.substr (0, VER.indexOf(" "));
+	   if ((VER < 4.8) && (OS == "Win32")) 
+	   {
+	       IE4PC = 1;
+	   }
+    }
+
+    function handleResize() {
+	    location.reload();
+	    return false;
+    }
+
+
+    if ((NS) && (navigator.platform == "MacPPC")) {
+	   window.captureEvents (Event.RESIZE);
+	   window.onresize = handleResize;
+    }
+
+    function openResource(event, resourcePath, resourceName, resourceType)
+    {
+	   var newwindow;
+
+       // Resource MIMETypes are enumerated as follows: 
+       // cMap     = Undefined
+       // Image    = 0
+       // Video    = 1
+       // Text     = 2
+       // Audio    = 3
+
+       popDown();
+
+	   switch (resourceType) 
+	   {
+	    case 0:     //Image
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<center><img src=\"';
+                    text += resourcePath;
+                    text +='\"> </center>';
+             break;
+		
+	    case 1:  text   // Video
+		     newwindow = window.open (resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+                     var text ='<embed src=\"';
+                     text += resourcePath;
+                     text +='\" autostart=true> </embed> ';
+             break;
+
+	    case 2:      // Text or Unknown 
+		     newwindow = window.open(resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+              break;
+
+	    case 3:       // Audio
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<embed src=\"';
+                    text += resourcePath;
+                    text +='\" autoplay=true> </embed> ';
+             break;
+
+	    case 4:
+                    newwindow = window.open(resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+	     break;
+	    }
+        return;
+    }
+
+
+
+    function popUpEvt(event, popupName)
+    {
+	popDown();
+
+	if (GECKO)
+	{
+	    document.getElementById(popupName).style.left = event.layerX;
+	    document.getElementById(popupName).style.top = event.layerY;
+	    document.getElementById(popupName).style.background = "#B3B3B3";
+	    document.getElementById(popupName).style.visibility = "visible";
+	    openpopups.push(popupName);
+	}
+	else if (NS) 
+	{
+	    document.layers[popupName].moveTo (event.pageX, event.pageY);
+	    document.layers[popupName].bgColor = "#B3B3B3";
+	    document.layers[popupName].visibility = "show";
+	    openpopups.push(popupName);
+	}
+	else // if (IE)
+	{
+	    window.event.cancelBubble = true;
+	    if (!IE4PC) {
+		document.all[popupName].style.backgroundColor = "#B3B3B3";
+	    }	
+	    document.all[popupName].style.left = window.event.clientX + document.body.scrollLeft;
+	    document.all[popupName].style.top = window.event.clientY + document.body.scrollTop;
+	    document.all[popupName].style.visibility = "visible";
+	    openpopups[openpopups.length] = popupName;
+	}
+	return false;
+    }
+
+    function popDown()
+    {
+	var popupname;
+	
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+		document.getElementById(popupname).style.visibility = "hidden";
+	    }
+	    else if (NS) {
+		document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+		document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+	return;
+    }
+
+    function popDownNoGecko() 
+    {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+           //  document.getElementById(popupname).style.visibility = "hidden"; 
+	        return;   // erased for test purposes
+	    }  
+	    else if (NS) {
+	        document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+	        document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+        return;
+    }
+  //-->
+  </script>
+</HEAD>
+<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0">
+<noscript>
+  <table width=90% cellpadding=10>
+    <tr>
+      <td bgcolor=ff4447>
+        <font color=000000 size=+1 face="helvetica">
+        <h1>WARNING:</h1>
+        <b>JavaScript is turned OFF.  None of the links on this concept map will <br>
+           work until it is reactivated.
+          <p>
+            <a href="http://cmap.ihmc.us/docs/EnablingJavaScript.html">
+                            If you need help turning JavaScript On, click here.
+            </a>
+          </p>
+        </b>
+      </td>
+    </tr>
+  </table>
+此概念图以 IHMC CmapTools 创建, 内含信息有关于: Ruby運算式基礎篇, 輸入："Hello" =&#62 "Hello" "world" =&#62 "world" 總結 單元習題, 註解 是 說明這段程式碼用途 ，將＃放置註解內容前，讓該行程式碼不執行。 或是將註解內容利用=begin及=end包住 ，讓該段程式碼不執行。, 數學運算與比較 包含 如同大多數其他語言所使用的數學運算符號。 說明：+代表加號 -代表減號 ＊代表乘法 /代表除法 ＊＊代表指數, 說明這段程式碼用途 ，將＃放置註解內容前，讓該行程式碼不執行。 或是將註解內容利用=begin及=end包住 ，讓該段程式碼不執行。 例如 輸入：＃輸出Hello "Hello" =&#62 "Hello" "world" =&#62 "world" =begin 此段教學為字串舉例 =end, 數學運算與比較 包含 可以使用&#62,&#60來做數值比較 或是＝＝來查看兩個數值是否相等, 在程式碼中，呼叫方法(print,puts,p) ，方便將文字顯示在輸出上。 例如 輸入：print "Hello, Ruby" puts "Hello, Ruby" p "Hello, Ruby" puts會自動換行 puts "Jan","Feb","Mar" p "Hello, Ruby" puts"Welcome to 'RoR World'" print"what's your name" input = gets #會從你的輸入讀取你打的資料， 最後gets回傳輸入者的文字 puts = "Welcome, #{input}", 輸入：small = 7 =&#627 medium = 13 =&#6213 small + medium =&#6220 pie = "圓周率" =&#62"圓周率" pie = 3.14 =&#623.14 number = 3 =&#623 number +=1 =&#624 number =&#624 str = "ab" =&#62"ab" str +="cd" =&#62"abcd" str =&#62"abcd" x=1 y=1 z=1 x,y,z = 1,2,3 x,y,z = [1,2,3] my_money_coin = 5 =&#62 5 總結 單元習題, 輸入：4.4-2.2 =&#622.2 3*4 =&#6212 7/3.5 =&#622.0 2**3 =&#628 總結 單元習題, Ruby 基礎運算與語法 包括 物件導向, 輸入：5 &#60 10 =&#62true 5 &#62 10 =&#62false 5 + 4 ==10=&#62false 總結 單元習題, Ruby 基礎運算與語法 包括 數學運算與比較, Ruby 基礎運算與語法 包括 輸出文字, 輸入：＃輸出Hello "Hello" =&#62 "Hello" "world" =&#62 "world" =begin 此段教學為字串舉例 =end 總結 單元習題, 字串 是 一系列的文字符號。要指定字串的方式是使用 一對雙引號(”)或單引號(')來括弧住。, 單元習題 是 習題一、請寫出一個BMI轉換器 習題二、請寫出溫度轉換器(攝氏-&#62華氏), 輸出文字 是 在程式碼中，呼叫方法(print,puts,p) ，方便將文字顯示在輸出上。, 把資料當作是物件， 可以透過字串或數字呼叫方法。 例如 輸入："Hello".upcase =&#62HELLO "Hello".reverse =&#62 olleH 42.even? =&#62true -32.abs =&#6232, Ruby 基礎運算與語法 透過 執行Ruby程式, 如同大多數其他語言所使用的數學運算符號。 說明：+代表加號 -代表減號 ＊代表乘法 /代表除法 ＊＊代表指數 例如 輸入：4.4-2.2 =&#622.2 3*4 =&#6212 7/3.5 =&#622.0 2**3 =&#628, 輸入："Hello".upcase =&#62HELLO "Hello".reverse =&#62 olleH 42.even? =&#62true -32.abs =&#6232 總結 單元習題
+
+</noscript>
+
+<map name="Ruby運算式基礎篇.html">
+  <area shape="rect"
+        href="1S9HS2Q06I1PCJ6YKIFDFItextIhtml"
+        onClick="popUpEvt(event,'1S9HS2Q06I1PCJ6YKIFDFItextIhtml'); return false;"
+        coords="1197,1001,1215,1019">
+  <area shape="rect"
+        href="1S1XQM7L0I1ZNTZSXI1TBItextIhtml"
+        onClick="popUpEvt(event,'1S1XQM7L0I1ZNTZSXI1TBItextIhtml'); return false;"
+        coords="1457,36,1475,54">
+  <area shape="rect"
+        href="1S1XQM7L0I1ZNTZSXI1TBIx-cmapIx-storable"
+        onClick="popUpEvt(event,'1S1XQM7L0I1ZNTZSXI1TBIx-cmapIx-storable'); return false;"
+        coords="1474,36,1492,54">
+</map>
+
+<center>
+  <table width=* height=* cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td valign=center align=center>
+        <img USEMAP="#Ruby運算式基礎篇.html"
+             SRC="Ruby運算式基礎篇.jpg"
+             ALIGN=middle
+             BORDER=0
+             onClick=popDown();>
+      </td>
+    </tr>
+    <tr>
+      <td VALIGN=top ALIGN=right>
+        <table>
+          <tr>
+            <td ALIGN=right VALIGN=middle>
+              <map NAME="CmapToolsTrademark">
+                <area SHAPE="rect"
+                      href="http://cmap.ihmc.us/"
+                      onClick="openResource(event,'http://cmap.ihmc.us/', 0, 2); return false;"
+                      coords="1,1,210,50">
+              </map>
+            </td>
+          </tr>
+          <tr>
+            <td  ALIGN=right VALIGN=middle>
+              <img USEMAP="#CmapToolsTrademark"
+                   SRC="CmapToolsTrademark.gif" 
+                   ALT="IHMC Cmap Tools Trademark" width="210" height="50"
+                   ALIGN=middle
+                   BORDER=0>
+            </td>
+            <td VALIGN=middle>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+</BODY>
+</HTML>
+<div id="1S9HS2Q06I1PCJ6YKIFDFItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://repl.it/@z1z1z1joey/bmi "TITLE="">
+      BMI轉換器程式碼
+      </a>
+      </td>
+    </tr>
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://repl.it/@z1z1z1joey/Temperature-Conversion "TITLE="">
+      溫度轉換器程式碼
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1S1XQM7L0I1ZNTZSXI1TBItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://repl.it/ "TITLE="">
+      Oline REPL
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1S1XQM7L0I1ZNTZSXI1TBIx-cmapIx-storable" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="執行Ruby程式.html "TITLE="">
+      執行Ruby程式
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
